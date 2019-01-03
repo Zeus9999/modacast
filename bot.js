@@ -104,27 +104,27 @@ client.user.setStatus("dnd")
 });
 
 var adminprefix = '&'
-const developers = ['322820141089947659'] //الاي دى حقك
+const developers = ['490252038492389379'] //الاي دى حقك
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
      
-  if (message.content.startsWith(adminprefix + 'setg')) {
+  if (message.content.startsWith(adminprefix + 'sssssssssss')) {
     client.user.setGame(argresult);
       message.channel.send(`BY !RG , ZEUS#9999   ${argresult}**`)
   } else
      if (message.content === (adminprefix + "leave")) {
     message.guild.leave();        
   } else  
-  if (message.content.startsWith(adminprefix + 'setw')) {
+  if (message.content.startsWith(adminprefix + 'sssss')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(`BY !RG , ZEUS#9699   ${argresult}**`)
   } else
-  if (message.content.startsWith(adminprefix + 'setl')) {
+  if (message.content.startsWith(adminprefix + 'sssss')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.send(`BY !RG , ZEUS#9999   ${argresult}**`)
   } else
-  if (message.content.startsWith(adminprefix + 'sets')) {
+  if (message.content.startsWith(adminprefix + 'sssssss')) {
     client.user.setGame(argresult, "https://www.twitch.tv/One");
       message.channel.send(`BY !RG , ZEUS#9999`)
   }
